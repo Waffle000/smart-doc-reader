@@ -2,7 +2,7 @@
   <img src="static/favicon.svg" alt="Smart Document Reader Logo" width="120" />
 </div>
 
-# Smart Document Reader 📄✨
+# Smart Document Reader 
 Aplikasi web modern untuk mengekstrak data dari resi dan *invoice* secara otomatis menggunakan AI, menyajikannya dalam format terstruktur, dapat diedit, dan diekspor. 
 
 🌐 **Live Demo:** [https://smartdoc.waffle.codes](https://smartdoc.waffle.codes)
