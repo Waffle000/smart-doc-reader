@@ -9,18 +9,18 @@ Aplikasi web modern untuk mengekstrak data dari resi dan *invoice* secara otomat
 ## 🧪 File Uji Coba (Samples)
 Untuk memudahkan pengetesan, Anda dapat mengunduh beberapa contoh *invoice* & resi yang sudah disediakan di bawah ini, lalu mengunggahnya ke dalam aplikasi:
 
-1. [Struk Minimarket](/samples/01_struk_minimarket.png)
-2. [Invoice Restoran](/samples/02_invoice_restoran.png)
-3. [Invoice USD](/samples/03_invoice_usd.png)
+1. [Struk Minimarket](static/samples/01_struk_minimarket.png)
+2. [Invoice Restoran](static/samples/02_invoice_restoran.png)
+3. [Invoice USD](static/samples/03_invoice_usd.png)
 
 ---
 
 ## 🚀 Fitur Utama
-- **OCR & AI Extraction:** Membaca data tersetruktur (Vendor, Tanggal, Total, Pajak, dan Line Items) dari gambar/PDF.
-- **Keamanan Unggul:** Verifikasi *Magic Bytes* untuk file, perlindungan *Path Traversal*, CSP Headers, dan R2 *signed-ish URL* via pekerja (Worker).
-- **Verifikasi Human-in-the-Loop:** Menampilkan indikator *confidence level* AI (Tinggi/Sedang/Rendah) dan memungkinkan pengguna mengedit data jika AI salah mengenali tulisan.
-- **Ekspor Data:** *Download* hasil ekstraksi ke dalam format **Excel (XLS)**, **CSV**, atau **JSON**.
-- **Performa Tinggi:** Dibangun di atas infrastruktur *Edge* (Cloudflare Pages + D1 + R2).
+- **Ekstraksi AI & OCR:** Otomatis membaca dan menyusun data terstruktur (Vendor, Tanggal, Total, Pajak, dan *Line Items*) dari gambar atau PDF.
+- **Keamanan Ketat:** Dilengkapi verifikasi tipe file tingkat rendah (*Magic Bytes*), proteksi *Path Traversal*, penerapan *CSP Headers*, serta akses URL R2 yang aman melalui Cloudflare Worker.
+- **Validasi Human-in-the-Loop:** Menyertakan indikator tingkat kepercayaan AI (*confidence level*) pada setiap data, memberi Anda kendali penuh untuk mengedit hasil yang kurang akurat.
+- **Ekspor Fleksibel:** Anda dapat mengunduh (*download*) hasil ekstraksi ke format standar seperti **Excel (XLS)**, **CSV**, atau **JSON**.
+- **Performa Instan:** Dibangun dengan arsitektur *Edge Computing* (Cloudflare Pages + D1 + R2) untuk waktu muat yang super cepat.
 
 ## 🛠 Tech Stack
 - **Framework:** SvelteKit (TypeScript Strict)
