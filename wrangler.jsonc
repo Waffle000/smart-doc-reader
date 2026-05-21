@@ -1,0 +1,28 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "smart-doc-reader",
+	"compatibility_date": "2026-05-20",
+	"compatibility_flags": [
+		"nodejs_compat",
+		"nodejs_als"
+	],
+	"pages_build_output_dir": ".svelte-kit/cloudflare",
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "smartdoc",
+			"database_id": "970c4880-fbba-456d-a3c3-a1606f0ca943",
+			"migrations_dir": "./drizzle"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "R2",
+			"bucket_name": "smartdoc-files"
+		}
+	]
+}

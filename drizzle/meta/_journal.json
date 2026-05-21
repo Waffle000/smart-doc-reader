@@ -1,0 +1,22 @@
+{
+  "version": "7",
+  "dialects": {
+    "sqlite": "0"
+  },
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1745423666113,
+      "tag": "0000_dizzy_bucky",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1779336247517,
+      "tag": "0001_auth_and_name",
+      "breakpoints": true
+    }
+  ]
+}
